@@ -1,0 +1,76 @@
+# generated: 2026-02-09 22:36:41 +0800
+# project: littleWhite
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: /Users/hewenchao/Documents/ios/littleWhite/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: "2026-02-09 22:36:41 +0800"
+project: "littleWhite"
+project_key: "NOKEY"
+tracking_system: "file-system"
+story_location: "/Users/hewenchao/Documents/ios/littleWhite/_bmad-output/implementation-artifacts"
+
+development_status:
+  epic-1: backlog
+  1-1-报告导入-图片-pdf-与格式校验: backlog
+  1-2-ocr-文本识别与失败反馈: backlog
+  1-3-云端发送前确认门禁与结构化抽取: backlog
+  1-4-抽取结果映射校验与低置信标记: backlog
+  1-5-逐字段编辑-必填校验与取消录入: backlog
+  1-6-记录保存与修正链路追溯: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-历史列表展示与保存后即时可见: backlog
+  2-2-历史详情与重启恢复一致性: backlog
+  2-3-趋势图指标选择与时间范围筛选: backlog
+  2-4-趋势点位回看与图表-列表联动: backlog
+  2-5-列表与图表数据一致性校验: backlog
+  2-6-12-个月录入覆盖率展示: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-已保存记录的事务性持久化保护: backlog
+  3-2-未完成录入会话恢复或安全重建: backlog
+  3-3-识别-抽取失败后的手动录入兜底: backlog
+  3-4-关键处理状态审计日志: backlog
+  3-5-结构化结果与修正历史可追溯存档: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-单条记录删除能力与一致性清理: backlog
+  4-2-云端最小化负载与字段白名单控制: backlog
+  4-3-云端确认门禁与禁止未授权发送: backlog
+  4-4-输入兼容与错误转译治理: backlog
+  4-5-入库前字段校验与非法数据阻断: backlog
+  4-6-密钥治理与泄漏响应-runbook: backlog
+  epic-4-retrospective: optional
