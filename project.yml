@@ -1,0 +1,28 @@
+name: littleWhiteApp
+options:
+  minimumXcodeGenVersion: 2.43.0
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    IPHONEOS_DEPLOYMENT_TARGET: 26.0
+targets:
+  littleWhiteApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: App/littleWhiteApp
+      - path: Sources/littleWhite
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hewenchao.littleWhiteApp
+        PRODUCT_NAME: littleWhiteApp
+        INFOPLIST_FILE: App/littleWhiteApp/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 0.1.0
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]: "NO"
+        CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]: "NO"
+    scheme:
+      testTargets: []
